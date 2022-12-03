@@ -1,0 +1,89 @@
+.main .result {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 300px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.rps-div {
+  width: 80%;
+  max-width: 370px;
+  border: 2px solid whitesmoke;
+  display: flex;
+  margin: 0 auto;
+  gap: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+  /* vertical-align: middle; */
+  text-align: left;
+  justify-content: space-between;
+}
+
+.rps-div div {
+  background-color: whitesmoke;
+  width: 25%;
+  object-fit: contain;
+  height: 100px;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.rps-div div p {
+  color: hsl(229, 64%, 46%);
+}
+
+.paper {
+  border-radius: 100px;
+  padding: 20px;
+  border: 15px solid hsl(230, 89%, 62%);
+  background-color: white;
+  object-fit: cover;
+}
+
+.rock {
+  border-radius: 100px;
+  padding: 20px;
+  border: 15px solid hsl(349, 71%, 52%);
+  background-color: white;
+}
+
+.main h1 {
+  color: white;
+}
+.main p {
+  color: white;
+}
+
+.btn1 {
+  height: 53px;
+  width: 60%;
+  max-width: 330px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 9px;
+  font-size: 15px;
+}
+
+.btn2 {
+  width: 50%;
+  max-width: 200px;
+  height: 50px;
+  margin-top: 40px;
+  border-radius: 9px;
+  color: white;
+  font-size: 20px;
+  border: 2px solid whitesmoke;
+  background-color: rgb(23, 23, 143);
+  margin-bottom: 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
